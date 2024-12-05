@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://example.com/hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.book-gallery {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.book-gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #2c3e50;
+    color: white;
+}
